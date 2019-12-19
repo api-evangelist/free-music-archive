@@ -1,0 +1,163 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Search Services",
+        "description": "API for Internet Archive's Search-related services\n",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.archive.org\/"
+    ],
+    "paths": {
+        "\/search\/v1\/fields": {
+            "get": {
+                "summary": "",
+                "description": "Fields that can be requested",
+                "operationId": "SearchV1FieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fields that can be requested",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/OrganicResult"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/search\/v1\/organic": {
+            "get": {
+                "summary": "",
+                "description": "Return relevance-based results from search queries\n",
+                "operationId": "SearchV1OrganicGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fields that can be requested",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/OrganicResult"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/search\/v1\/scrape": {
+            "get": {
+                "summary": "",
+                "description": "Scrape search results from Internet Archive, allowing a scrolling cursor\n",
+                "operationId": "SearchV1ScrapeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fields that can be requested",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/OrganicResult"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Hit": {
+                "type": "object"
+            },
+            "OrganicResult": {
+                "type": "object",
+                "properties": {
+                    "count": {
+                        "description": "Number of results returned",
+                        "type": "integer"
+                    },
+                    "items": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "total": {
+                        "description": "Approximate number of results meeting query",
+                        "type": "integer"
+                    }
+                }
+            },
+            "items": {
+                "type": "array"
+            },
+            "ScrapeResult": {
+                "type": "object",
+                "properties": {
+                    "count": {
+                        "description": "Number of results returned",
+                        "type": "integer"
+                    },
+                    "cursor": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "items": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "previous": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "total": {
+                        "description": "Approximate number of results meeting query",
+                        "type": "integer"
+                    }
+                }
+            },
+            "cursor": {
+                "type": "object"
+            }
+        }
+    }
+}
