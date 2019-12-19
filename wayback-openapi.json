@@ -1,0 +1,138 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Wayback",
+        "description": "API for Internet Archive's Wayback Machine",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.archive.org\/"
+    ],
+    "paths": {
+        "\/wayback\/v1\/available": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "WaybackV1AvailableGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "post": {
+                "summary": "",
+                "description": "",
+                "operationId": "WaybackV1AvailablePost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ArchivedResult": {
+                "type": "object",
+                "properties": {
+                    "snapshot": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "tag": {
+                        "description": "The user-supplied tag for use in collation",
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "description": "The _intepreted_ timestamp requested, in [RFC 3339](http:\/\/xml2rfc.ietf.org\/public\/rfc\/html\/rfc3339.html) format",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL requested",
+                        "type": "string"
+                    }
+                }
+            },
+            "snapshot": {
+                "type": "object",
+                "properties": {
+                    "status": {
+                        "description": "The HTTP status of the URL requested",
+                        "type": "integer"
+                    },
+                    "timestamp": {
+                        "description": "The _intepreted_ timestamp requested, in [RFC 3339](http:\/\/xml2rfc.ietf.org\/public\/rfc\/html\/rfc3339.html) format",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL requested",
+                        "type": "string"
+                    }
+                }
+            },
+            "AvailabilityRequest": {
+                "type": "object",
+                "properties": {
+                    "closest": {
+                        "description": "The direction to find the closest snapshot to the requested timestamp",
+                        "type": "string"
+                    },
+                    "tag": {
+                        "description": "The user-supplied tag for use in collation",
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "description": "The _intepreted_ timestamp requested, in [RFC 3339](http:\/\/xml2rfc.ietf.org\/public\/rfc\/html\/rfc3339.html) format",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "The URL requested",
+                        "type": "string"
+                    }
+                }
+            },
+            "AvailabilityRequests": {
+                "type": "array"
+            },
+            "AvailabilityResults": {
+                "type": "object",
+                "properties": {
+                    "results": {
+                        "description": "A list of results",
+                        "type": "array"
+                    }
+                }
+            },
+            "results": {
+                "type": "array"
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
