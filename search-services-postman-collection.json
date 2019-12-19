@@ -1,0 +1,106 @@
+{
+    "id": "579b8a831aa9782412c6a68c396a7b01",
+    "name": "Search Services",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6e49683675527992164eb483ab5bd5fb",
+            "name": "",
+            "url": "http:\/\/api.archive.org\/\/search\/v1\/fields",
+            "description": "Fields that can be requested",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "rawModeData": ""
+        },
+        {
+            "id": "03a26a50ef005694f5cb51540334a837",
+            "name": "",
+            "url": "http:\/\/api.archive.org\/\/search\/v1\/organic",
+            "description": "Return relevance-based results from search queries\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "rawModeData": ""
+        },
+        {
+            "id": "85d21bc474279a5ba04ba487271e1b36",
+            "name": "",
+            "url": "http:\/\/api.archive.org\/\/search\/v1\/scrape",
+            "description": "Scrape search results from Internet Archive, allowing a scrolling cursor\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "rawModeData": ""
+        }
+    ]
+}
