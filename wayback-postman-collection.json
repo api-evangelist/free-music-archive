@@ -1,0 +1,75 @@
+{
+    "id": "6be14acd201963b2202f3a00bbd6e9d3",
+    "name": "Wayback",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "55367d0109ccc85ae07f1ed6c9d7f17c",
+            "name": "",
+            "url": "http:\/\/api.archive.org\/\/wayback\/v1\/available",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6be14acd201963b2202f3a00bbd6e9d3",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf44f20f11a406bffb2eb21dc9c320fc",
+            "name": "",
+            "url": "http:\/\/api.archive.org\/\/wayback\/v1\/available",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6be14acd201963b2202f3a00bbd6e9d3",
+            "rawModeData": ""
+        }
+    ]
+}
