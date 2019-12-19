@@ -1,0 +1,116 @@
+{
+    "name": "Free Music Archive",
+    "description": "The Free Music Archive is an interactive library of high-quality, legal audio downloads.  The Free Music Archive is directed by WFMU, the most renowned freeform radio station in America.  Radio has always offered the public free access to new music. Th...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/796-free-music-archive.jpg",
+    "tags": [
+        "api provider",
+        "archives",
+        "have api",
+        "have swagger",
+        "mp3",
+        "music"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/free-music-archive\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Free Music Archive",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/796-free-music-archive.jpg",
+            "humanURL": "http:\/\/archive.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/free-music-archive-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/free-music-archive.json"
+                }
+            ]
+        },
+        {
+            "name": "Search Services",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/796-free-music-archive.jpg",
+            "humanURL": "http:\/\/archive.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/search-services-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/search-services.json"
+                }
+            ]
+        },
+        {
+            "name": "Wayback",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/796-free-music-archive.jpg",
+            "humanURL": "http:\/\/archive.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/wayback-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/wayback.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/freemusicarchive.org\/api\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/free-music-archive"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/freemusicarchive.org\/api\/docs\/"
+        },
+        {
+            "type": "Email",
+            "url": "complaints@freemusicarchive.org"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/796-2019-09-04-09-31-52.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/796-2019-09-03-16-26-19.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/796-2019-09-03-16-26-57.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/freemusicarchiv"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/freemusicarchive.org"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/archive.org"
+        }
+    ]
+}
