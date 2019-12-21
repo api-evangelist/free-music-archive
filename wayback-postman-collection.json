@@ -1,5 +1,5 @@
 {
-    "id": "6be14acd201963b2202f3a00bbd6e9d3",
+    "id": "a649733ff68d2b879b37b0c708a3fed5",
     "name": "Wayback",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "55367d0109ccc85ae07f1ed6c9d7f17c",
+            "id": "d9ef04bbcb119690e01eea2d8fcd04d4",
             "name": "",
             "url": "http:\/\/api.archive.org\/\/wayback\/v1\/available",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6be14acd201963b2202f3a00bbd6e9d3",
+            "collectionId": "a649733ff68d2b879b37b0c708a3fed5",
             "rawModeData": ""
         },
         {
-            "id": "cf44f20f11a406bffb2eb21dc9c320fc",
+            "id": "e79a02eedd64f5f1ebc748bd7c270a48",
             "name": "",
             "url": "http:\/\/api.archive.org\/\/wayback\/v1\/available",
             "description": "",
@@ -68,7 +68,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6be14acd201963b2202f3a00bbd6e9d3",
+            "collectionId": "a649733ff68d2b879b37b0c708a3fed5",
             "rawModeData": ""
         }
     ]
