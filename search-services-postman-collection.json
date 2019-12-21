@@ -1,5 +1,5 @@
 {
-    "id": "579b8a831aa9782412c6a68c396a7b01",
+    "id": "db73417f7147860f3c7e3fd41a828c19",
     "name": "Search Services",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "6e49683675527992164eb483ab5bd5fb",
+            "id": "5f00ba2f8b1842eac52644ff65c3d0b5",
             "name": "",
             "url": "http:\/\/api.archive.org\/\/search\/v1\/fields",
             "description": "Fields that can be requested",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "collectionId": "db73417f7147860f3c7e3fd41a828c19",
             "rawModeData": ""
         },
         {
-            "id": "03a26a50ef005694f5cb51540334a837",
+            "id": "3a4f3247f81517129da213ba984e1d1d",
             "name": "",
             "url": "http:\/\/api.archive.org\/\/search\/v1\/organic",
             "description": "Return relevance-based results from search queries\n",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "collectionId": "db73417f7147860f3c7e3fd41a828c19",
             "rawModeData": ""
         },
         {
-            "id": "85d21bc474279a5ba04ba487271e1b36",
+            "id": "951d1bc9e4317c103844cadb1ed8f1d6",
             "name": "",
             "url": "http:\/\/api.archive.org\/\/search\/v1\/scrape",
             "description": "Scrape search results from Internet Archive, allowing a scrolling cursor\n",
@@ -99,7 +99,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "579b8a831aa9782412c6a68c396a7b01",
+            "collectionId": "db73417f7147860f3c7e3fd41a828c19",
             "rawModeData": ""
         }
     ]
